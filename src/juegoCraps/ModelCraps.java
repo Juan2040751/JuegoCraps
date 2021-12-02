@@ -100,7 +100,7 @@ public class ModelCraps {
                                    ", Debes seguir lanzando!"+
                                     "\n pero si sacas 7 antes que "+punto+" perderas";
                 break;
-            case 4: estadoToString="Volviste a sacar"+punto+", has ganado!";
+            case 4: estadoToString="Volviste a sacar "+punto+", has ganado!";
                 break;
             case 5: estadoToString="Sacaste 7 antes que "+punto+", has ganado!";
                 break;
