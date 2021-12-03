@@ -106,7 +106,7 @@ public class ModelCraps {
             case 3: estadoToString[0]= "Tiro de salida = "+tiro+"\nPunto = "+punto;
                     estadoToString[1]="Estableciste Punto en "+punto+
                                    ", Debes seguir lanzando!"+
-                                    "\n pero si sacas 7 antes que "+punto+" perderas";
+                                    "\npero si sacas 7 antes que "+punto+" perderas";
                 break;
             case 4: estadoToString[0]= "Tiro de salida = "+punto+"\nPunto = "+punto
                                         +"\nValor del nuevo Tiro = "+tiro;
@@ -114,12 +114,12 @@ public class ModelCraps {
                 break;
             case 5: estadoToString[0]= "Tiro de salida = "+punto+"\nPunto = "+punto
                                         +"\nValor del nuevo Tiro = "+tiro;
-                    estadoToString[1]="Sacaste 7 antes que "+punto+", has ganado!";
+                    estadoToString[1]="Sacaste 7 antes que "+punto+", has perdido!";
                 break;
             case 6: estadoToString[0]= "Tiro de salida = "+punto+"\nPunto = "+punto
                                         +"\nValor del nuevo Tiro = "+tiro;
-                estadoToString[1]="\nEstas en Punto y Debes seguir lanzando!"+
-                                  "\n pero si sacas 7 antes que "+punto+" perderas";
+                estadoToString[1]="Estas en Punto y Debes seguir lanzando!"+
+                                  "\npero si sacas 7 antes que "+punto+" perderas";
                 break;
         }
         return estadoToString;
